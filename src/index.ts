@@ -14,6 +14,7 @@ export {
   Mixed,
   null,
   partial,
+  record,
   string,
   tuple,
   type,
