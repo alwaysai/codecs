@@ -20,20 +20,23 @@
     "postversion": "npm publish"
   },
   "dependencies": {
-    "@carnesen/coded-error": "0.1.0",
-    "io-ts": "1.8.3"
+    "@carnesen/coded-error": "0.1.0"
+  },
+  "peerDependencies": {
+    "io-ts": ">=1.8.0"
   },
   "devDependencies": {
     "@alwaysai/tsconfig": "0.0.0",
-    "@alwaysai/tslint-config": "0.0.1",
+    "@alwaysai/tslint-config": "0.0.3",
     "@types/jest": "24.0.11",
-    "@types/node": "11.11.3",
-    "jest": "24.5.0",
+    "@types/node": "11.13.4",
+    "io-ts": "1.8.5",
+    "jest": "24.7.1",
     "rimraf": "2.6.3",
-    "ts-jest": "24.0.0",
+    "ts-jest": "24.0.2",
     "ts-node": "8.0.3",
-    "tslint": "5.14.0",
-    "typescript": "3.3.3333"
+    "tslint": "5.15.0",
+    "typescript": "3.4.3"
   },
   "files": [
     "src",

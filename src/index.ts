@@ -7,20 +7,3 @@ export const uuid = t.string;
 
 export { optionalString } from './optional-string';
 export { emptyArray } from './empty-array';
-export {
-  any,
-  array,
-  intersection,
-  Mixed,
-  null,
-  partial,
-  record,
-  string,
-  tuple,
-  type,
-  TypeOf,
-  undefined,
-  union,
-  unknown,
-  UnknownArray,
-} from 'io-ts';
