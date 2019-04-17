@@ -20,7 +20,9 @@
     "postversion": "npm publish"
   },
   "dependencies": {
-    "@carnesen/coded-error": "0.1.0"
+    "@carnesen/coded-error": "0.1.0",
+    "@types/keymirror": "0.1.1",
+    "keymirror": "0.1.1"
   },
   "peerDependencies": {
     "io-ts": ">=1.8.0"
