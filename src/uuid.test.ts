@@ -4,11 +4,14 @@ import { uuid } from './uuid';
 import { cast } from './cast';
 import { isRight } from 'fp-ts/lib/Either';
 
+const validValue = '00000000-0000-0000-0000-000000000000';
+
 describe(uuid.name, () => {
   it('validates a uuid', () => {
-    const decoded = uuid.decode('00000000-0000-0000-0000-000000000000');
+    const decoded = uuid.decode(validValue);
     expect(isRight(decoded)).toBe(true);
-    expect((decoded as any).right).toBe('00000000-0000-0000-0000-000000000000');
+    expect((decoded as any).right).toBe(validValue);
+    expect(cast(uuid, validValue)).toBe(validValue);
   });
 
   it('throws a validation error if the input is bad', async () => {
