@@ -6,4 +6,3 @@ export { emptyArray } from './empty-array';
 export { optionalString } from './optional-string';
 export const nullableString = t.union([t.string, t.null], 'nullableString');
 export { uuid } from './uuid';
-export { systemId, SystemId, SYSTEM_IDS } from './system-id';
